@@ -121,13 +121,25 @@ text, tspan {
 }
 
 .IfcBeam.EPsetStatus-StatusEXISTING {
-    fill: none;
-    stroke: rgb(0, 0, 0);
-    stroke-opacity: 0.6;
+    fill: rgb(165, 201, 242);
+    fill-opacity: .9;
+    stroke: rgb(0, 4, 9);
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 0.25;
 }
+
+
+.IfcBeam.EPsetStatus-StatusEXISTING {
+    fill: rgb(56, 97, 144);
+    fill-opacity: .9;
+    stroke: rgb(0, 4, 9);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+
 
 .IfcBeam.EPsetStatus-StatusNEW {
     fill:  rgb(230, 238, 3);
@@ -137,6 +149,8 @@ text, tspan {
     stroke-linejoin: round;
     stroke-width: 0.25;
 }
+
+
 
 .IfcWindow {
     fill: none;
@@ -173,12 +187,13 @@ text, tspan {
 .IfcWall {
     fill: rgb(165, 201, 242);
     fill-opacity: .9;
-    stroke: rgb(165, 201, 242);
-    stroke-opacity: 0.9;
+    stroke: rgb(0, 4, 9);
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 0.25;
 }
+
+
 .material-brick {
     fill: rgb(165, 201, 242);
     fill-opacity: .9;
@@ -345,9 +360,9 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 4px; }
 .PredefinedType-PLASTERBOARD { fill: url(#sand); stroke: black; stroke-width: 0.25; }
 .IfcReinforcingBar { fill: none; stroke: rgb(255, 0, 0); stroke-linecap: 'round'; stroke-width: 2; }
 .EPsetStatus-StatusEXISTING{
-    fill:  rgb(23, 208, 221);
-    stroke: rgb(41, 136, 252);
-    stroke-opacity: 0.6;
+    fill: rgb(165, 201, 242);
+    fill-opacity: .9;
+    stroke: rgb(0, 4, 9);
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 0.25;
