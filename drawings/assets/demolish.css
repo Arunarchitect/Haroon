@@ -75,26 +75,27 @@ text, tspan {
 }
 
 .IfcWindow.EPsetStatus-StatusNEW {
-    fill: none;
-    stroke: rgb(78, 245, 89);
+    fill:  rgb(230, 238, 3);
+    stroke: rgb(245, 137, 6);
     stroke-opacity: 0.6;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 0.25;
+
 }
 
 .PredefinedType-FILLAREA.EPsetStatus-StatusNEW {
-    fill:  rgb(78, 245, 89);
-    stroke: rgb(78, 245, 89);
-    stroke-opacity: 0.6;
+    fill:  rgb(230, 238, 3);
+    stroke: rgb(245, 137, 6);
+    fill-opacity: 0.2;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 0.25;
 }
 
 .PredefinedType-FILLAREA.EPsetStatus-StatusEXISTING {
-    fill:  rgb(245, 78, 78);
-    stroke: rgb(245, 78, 78);
+    fill:  rgb(23, 208, 221);
+    stroke: rgb(41, 136, 252);
     stroke-opacity: 0.6;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -129,8 +130,8 @@ text, tspan {
 }
 
 .IfcBeam.EPsetStatus-StatusNEW {
-    fill: rgb(233, 135, 135);
-    stroke: rgb(241, 0, 0);
+    fill:  rgb(230, 238, 3);
+    stroke: rgb(245, 137, 6);
     stroke-opacity: 0.6;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -157,8 +158,10 @@ text, tspan {
     stroke-width: 0.25;
 }
 
+
+
 .IfcSlab {
-    fill: rgb(0, 0, 0);
+    fill: rgb(249, 6, 6);
     fill-opacity: .2;
     stroke: rgb(0, 0, 0);
     stroke-opacity: 0.2;
@@ -341,11 +344,10 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 4px; }
 .PredefinedType-CONCRETE { fill: url(#concrete); stroke: black; stroke-width: 0.5; }
 .PredefinedType-PLASTERBOARD { fill: url(#sand); stroke: black; stroke-width: 0.25; }
 .IfcReinforcingBar { fill: none; stroke: rgb(255, 0, 0); stroke-linecap: 'round'; stroke-width: 2; }
-.EPsetStatus-StatusEXISTINGDEMOLISH {
-    fill: rgb(241, 126, 126);
-    fill-opacity: .3;
-    stroke: rgb(165, 201, 242);
-    stroke-opacity: 0.9;
+.EPsetStatus-StatusEXISTING{
+    fill:  rgb(23, 208, 221);
+    stroke: rgb(41, 136, 252);
+    stroke-opacity: 0.6;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 0.25;
@@ -370,3 +372,13 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 4px; }
     stroke-linejoin: round;
     stroke-width: 0.25;
 } 
+
+
+.projection.IfcSlab.EPsetStatus-StatusNEW {
+    fill: rgb(249, 6, 6);
+    stroke: rgb(249, 6, 6);
+    stroke-opacity: 0.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
