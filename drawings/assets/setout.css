@@ -37,15 +37,6 @@ text, tspan {
     stroke-width: 0.25;
 }
 
-.IfcGeographicElement {
-    fill: none;
-    stroke: rgb(78, 245, 89);
-    stroke-opacity: 0.6;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
-
 .IfcAnnotation {
     fill: none;
     stroke: rgb(0, 0, 0);
@@ -74,94 +65,6 @@ text, tspan {
     stroke-width: 0.25;
 }
 
-.IfcWindow.EPsetStatus-StatusNEW {
-    fill:  rgb(230, 238, 3);
-    stroke: rgb(245, 137, 6);
-    stroke-opacity: 0.6;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-
-}
-
-.PredefinedType-FILLAREA.EPsetStatus-StatusNEW {
-    fill:  rgb(230, 238, 3);
-    stroke: rgb(245, 137, 6);
-    fill-opacity: 0.2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
-
-.PredefinedType-FILLAREA.EPsetStatus-StatusEXISTING {
-    fill:  rgb(23, 208, 221);
-    stroke: rgb(41, 136, 252);
-    stroke-opacity: 0.6;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
-
-.IfcWindow.EPsetStatus-StatusNEWEXISTING {
-    fill: none;
-    stroke: rgb(78, 214, 245);
-    stroke-opacity: 0.6;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
-
-.IfcWindow.EPsetStatus-StatusEXISTING {
-    fill: none;
-    stroke: rgb(78, 214, 245);
-    stroke-opacity: 0.6;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
-
-.IfcBeam.EPsetStatus-StatusEXISTING {
-    fill: rgb(165, 201, 242);
-    fill-opacity: .9;
-    stroke: rgb(0, 4, 9);
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
-
-
-.IfcBeam.EPsetStatus-StatusEXISTING {
-    fill: rgb(56, 97, 144);
-    fill-opacity: .9;
-    stroke: rgb(0, 4, 9);
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
-
-
-
-.IfcBeam.EPsetStatus-StatusNEW {
-    fill:  rgb(230, 238, 3);
-    stroke: rgb(245, 137, 6);
-    stroke-opacity: 0.6;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
-
-.IfcColumn.EPsetStatus-StatusNEW {
-    fill:  rgb(231, 234, 19);
-    stroke: rgb(245, 137, 6);
-    stroke-opacity: 0.6;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
-
-
-
-
 .IfcWindow {
     fill: none;
     stroke: rgb(124, 124, 123);
@@ -170,7 +73,6 @@ text, tspan {
     stroke-linejoin: round;
     stroke-width: 0.25;
 }
-
 
 .IfcSanitaryTerminal {
     fill: rgb(234, 239, 246);
@@ -182,12 +84,10 @@ text, tspan {
     stroke-width: 0.25;
 }
 
-
-
 .IfcSlab {
-    fill: rgb(249, 6, 6);
+    fill: rgb(165, 201, 242);
     fill-opacity: .2;
-    stroke: rgb(0, 0, 0);
+    stroke: rgb(165, 201, 242);
     stroke-opacity: 0.2;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -197,43 +97,22 @@ text, tspan {
 .IfcWall {
     fill: rgb(165, 201, 242);
     fill-opacity: .9;
-    stroke: rgb(0, 4, 9);
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
-
-
-.material-brick {
-    fill: rgb(165, 201, 242);
-    fill-opacity: .9;
     stroke: rgb(165, 201, 242);
     stroke-opacity: 0.9;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 0.25;
 }
-.material-brick2 {
-    fill: rgb(165, 201, 242);
-    fill-opacity: .9;
-    stroke: rgb(165, 201, 242);
-    stroke-opacity: 0.9;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
-
 
 .IfcColumn {
-    fill: rgb(165, 201, 242);
+    fill: rgb(224, 45, 45);
     fill-opacity: .8;
-    stroke: rgb(165, 201, 242);
+    stroke: rgb(1, 9, 17);
     stroke-opacity: 0.8;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 0.25;
 } 
-
 
 .material-tile {
     fill: rgb(241, 236, 226);
@@ -283,25 +162,8 @@ text, tspan {
     stroke-width: 0.25;
 }
 
-.material-existing {
-    fill: rgb(165, 242, 179);
-    fill-opacity: .9;
-    stroke: rgb(165, 201, 242);
-    stroke-opacity: 0.9;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
 
-.material-demolish {
-    fill: rgb(241, 126, 126);
-    fill-opacity: .3;
-    stroke: rgb(165, 201, 242);
-    stroke-opacity: 0.9;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
+
 
 
 
@@ -331,7 +193,7 @@ text, tspan {
 .PredefinedType-STAIRARROW { marker-start: url(#stair-marker-start); marker-end: url(#stair-marker-end); }
 .PredefinedType-BOUNDARY { fill: none; stroke: red; stroke-width: 1; stroke-dasharray: 12, 4, 3, 4, 3, 4; }
 .PredefinedType-SEALANT { fill: url(#crosshatch1); stroke-width: 0.25; }
-
+.PredefinedType-FILLAREA { fill: white; stroke: black; }
 .PredefinedType-BREAKLINE { fill: none; stroke: black; stroke-width: 0.25; marker-mid: url(#breakline-marker); }
 .PredefinedType-TEXT { fill: black; stroke: none; }
 path.PredefinedType-TEXTLEADER { marker-end: url(#leader-marker); }
@@ -353,7 +215,8 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 4px; }
 .material-crosshatch1 { fill: url(#crosshatch1); }
 .material-crosshatch2 { fill: url(#crosshatch2); }
 .material-crosshatch3 { fill: url(#crosshatch3); }
-
+.material-brick { fill: url(#brick); }
+.material-brick2 { fill: url(#brick2); }
 .material-randomrubble { fill: url(#randomrubble); }
 .material-earth { fill: url(#earth); }
 .material-glass { fill: url(#glass); }
@@ -369,24 +232,7 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 4px; }
 .PredefinedType-CONCRETE { fill: url(#concrete); stroke: black; stroke-width: 0.5; }
 .PredefinedType-PLASTERBOARD { fill: url(#sand); stroke: black; stroke-width: 0.25; }
 .IfcReinforcingBar { fill: none; stroke: rgb(255, 0, 0); stroke-linecap: 'round'; stroke-width: 2; }
-.EPsetStatus-StatusEXISTING{
-    fill: rgb(165, 201, 242);
-    fill-opacity: .9;
-    stroke: rgb(0, 4, 9);
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
 
-.EPsetStatus-StatusNEW {
-    fill: rgb(239, 230, 112);
-    fill-opacity: .9;
-    stroke: rgb(165, 201, 242);
-    stroke-opacity: 0.9;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
 
 .IfcCovering {
     fill: rgb(165, 201, 242);
@@ -397,13 +243,3 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 4px; }
     stroke-linejoin: round;
     stroke-width: 0.25;
 } 
-
-
-.projection.IfcSlab.EPsetStatus-StatusNEW {
-    fill: rgb(249, 6, 6);
-    stroke: rgb(249, 6, 6);
-    stroke-opacity: 0.8;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-width: 0.25;
-}
