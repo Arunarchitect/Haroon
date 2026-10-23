@@ -160,6 +160,25 @@ text, tspan {
 }
 
 
+.IfcWall.EPsetStatus-StatusNEW {
+    fill:  rgb(206, 209, 10);
+    stroke: rgb(245, 137, 6);
+    stroke-opacity: 0.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+.IfcColumn.EPsetStatus-StatusNEW {
+    fill:  rgb(149, 123, 6);
+    stroke: rgb(245, 137, 6);
+    stroke-opacity: 0.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 0.25;
+}
+
+
 
 
 .IfcWindow {
@@ -225,9 +244,9 @@ text, tspan {
 
 
 .IfcColumn {
-    fill: rgb(165, 201, 242);
+    fill: rgb(116, 107, 5);
     fill-opacity: .8;
-    stroke: rgb(165, 201, 242);
+    stroke: rgb(0, 0, 0);
     stroke-opacity: 0.8;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -400,8 +419,8 @@ text.GRID, tspan.GRID { /* 5mm */ font-size: 4px; }
 
 
 .projection.IfcSlab.EPsetStatus-StatusNEW {
-    fill: rgb(249, 6, 6);
-    stroke: rgb(249, 6, 6);
+    fill: rgb(200, 249, 6);
+    stroke: rgb(4, 0, 0);
     stroke-opacity: 0.8;
     stroke-linecap: round;
     stroke-linejoin: round;
