@@ -1,0 +1,5 @@
+Index,Identification,Name,Quantity,Unit,Contract,Value,Material Rate,Labor Rate,Subtotal,Property,Query,RateSchedule,RateID
+1,1,Shoe Count,,,,,,,,,,,
+2,1.1,Boots,,count,,1,,,1,,"IfcBuildingElementProxy, type=""Boots""",,
+2,1.2,Highheels,,count,,1,,,1,,"IfcBuildingElementProxy, type=""Highheels""",,
+2,1.3,Normal Sandals/flipflops,,count,,1,,,1,,"IfcBuildingElementProxy, type=""Sandal""",,
